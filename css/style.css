@@ -282,7 +282,7 @@ max-width: 350px;
 }
 
 .home-container .home-img{
-    position: relative;
+    position: flex;
 }
 
 .home-container .home-img img{
