@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Personal Portfolio Website - HTML, css and Javascript</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+</head>
+<body>
+
+<!--Scroll to top button-->
+<div class="scrollToTop-btn flex-center">
+    <i class="fas fa-arrow-up"></i>
+</div>
+
+
+<!--Dark theme button button-->
+<div class="theme-btn flex-center">
+    <i class="fas fa-moon"></i>
+    <i class="fas fa-sun"></i>
+
+</div>
+
+
+<!--Naviagation Page-->
+
+<header>
+
+    <div class="nav-bar">
+        <a href="#" class="logo">Venketesh</a>
+        <div class="navigation">
+            <div class="nav-items">
+                <div class="nav-close-btn"></div>
+                <a class="active" href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <div class="nav-menu-btn"></div>
+    </div>
+</header>
+
+<!--Home Page-->
+
+<section class="home flex-center" id="home">
+<div class="home-container">
+    <div class="media-icons">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+</div>
+<div class="info">
+    <h2>Hi, I am Venketesh</h2>
+    <h3>Front-end Developer</h3>
+    <p>I have create this website for my web application developement project. </p>
+    <a href="#contact" class="btn">Contact Me <i class="fas fa-arrow-circle-right"></i></a>
+</div>
+<div class="home-img">
+    <img src="images/Myproject.png" alt="">
+</div>
+</div> 
+<a href="#about" class="scroll-down">Scroll Down <i class="fas fa-arrow-down"></i></a>
+</section>
+
+<!--About Page-->
+
+<section class="about section" id="about">
+    <div class="container flex-center">
+        <h1 class="section-title-01">About Me</h1>
+        <h2 class="section-title-02">About Me</h2>
+        <div class="content flex-center">
+            <div class="about-img">
+                <img src="images/19362653.jpg" alt="" height="400">
+            </div>
+            <div class="about-info">
+                <div class="description">
+                    <h3>I'm Venketesh</h3>
+                    <h4>Computer Science student in <span><u><a href="https://www.dmu.ac.uk/study/undergraduate-study/open-days/open-days.aspx?gclid=CjwKCAiArY2fBhB9EiwAWqHK6oj3teVwr15DJrXJsEDwD8Npa9MGDglVLfzkIKXD_Ydo8627iGOtHhoCvn4QAvD_BwE">DMU University</a></u></span></h4>
+                    <p>Through my computer science studies, i have come across many projects such as developing mobile application, Database management, Agile development, Ethics and IT service practices. 
+                        My intrust is to develop a front end web development as well as creating an API for mobile application.
+                    <br>Along with this, i have also got experience in customer service and retailer job. </p>
+                </div>
+                <ul class="professional-list">
+                    <li class="list-item">
+                        <h3>3+</h3>
+                    <span>Years of <br> Study in Computer Science</span>
+                    </li>
+                    <li class="list-item">
+                        <h3>5+</h3>
+                    <span>Years of <br>Customer Service Experience</span>
+                    </li>                  
+                    <li class="list-item">
+                        <h3>2+</h3>
+                        <span>Years of <br>Coding and Design Experience</span>
+                    </li>
+                    </ul>
+                    <a href="" class="btn">Download CV <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Skills Page-->
+
+<section class="skills section" id="skills">
+    <div class="container flex-center">
+    <h1 class="section-title-01">Skills</h1>
+    <h2 class="section-title-02">Skills</h2>
+    <div class="content">
+    <div class="skills-description">
+        <h3>Education & skills</h3>
+        <p>During my 3 years of study in DMU University, I have been exposed with many projects. I am specialised in developing website and other <span>UI</span> designs.</p>
+    </div>
+    <div class="skills-info education-all">
+        <div class="education">
+        <h4><label> Education</label></h4>
+        <ul class="edu-list">
+            <li class="item">
+                <span class="year">2020-2023</span>
+                    <P><span>Computer Science (BSc hons)</span> - DMU University, Leicester</P>
+            </li>
+            <li class="item">
+                <span class="year">2018-2020</span>
+                    <P><span>IT Level 3, Extended Diploma</span> - Gateway College, Leicester</P>
+            </li>
+            <li class="item">
+                <span class="year">2017-2018</span>
+                <P><span>Maths/English GCSE </span> - Gateway College, Leicester</P>
+            </li>
+        </ul>
+    </div>
+    <div class="education">
+        <h4><label>skills</label></h4> 
+        <ul class="bars">
+            <li class="bar">
+                <div class="info">
+                    <span>HTML</span>
+                    <span>85%</span>
+                </div>
+                <div class="line html"></div>
+            </li>
+
+            <li class="bar">
+                <div class="info">
+                    <span>CSS</span>
+                    <span>80%</span>
+                </div>
+                <div class="line css"></div>
+            </li>
+
+            <li class="bar">
+                <div class="info">
+                    <span>Javascript</span>
+                    <span>75%</span>
+                </div>
+                <div class="line javascript"></div>
+            </li>
+
+
+            <li class="bar">
+                <div class="info">
+                    <span>Database</span>
+                    <span>70%</span>
+                </div>
+                <div class="line database"></div>
+            </li>
+
+            <li class="bar">
+                <div class="info">
+                    <span>Agile-Development</span>
+                    <span>70%</span>
+                </div>
+                <div class="line agile-development"></div>
+            </li>
+
+            <li class="bar">
+                <div class="info">
+                    <span>Customer Service</span>
+                    <span>95%</span>
+                </div>
+                <div class="line customer-service"></div>
+            </li>
+
+        </ul>
+    </div>
+    <div class="education">
+        <h4><label>Awards</label></h4>
+        <ul class="edu-list">
+
+            <li class="item">
+                <span class="year">2020</span>
+                <p>Health and Safety Level 2</p>
+            </li>
+
+             <li class="item">
+                <span class="year">2019</span>
+                <p>Best Student in IT Level 3</p>
+            </li>
+            <li class="item">
+                <span class="year">2018</span>
+                <p>NCS Certificate</p>
+            </li>
+        </ul>
+    </div>
+    </div>
+    <div class="skills-description">
+        <h3>Work & Experience</h3>
+    </div>
+    <div class="skills-info">
+        <div class="experience-card">
+            <div class="upper">
+            <h3>Customer Service Administrator</h3>
+            <h5>Part Time</h5>
+            <span>8 JUNE 2022 – TILL DATE</span>
+        </div>
+        <div class="hr"></div>
+        <h4><label>Cadent (Your Gas Network)</label></h4>
+        <P>In cadent, my main role is to maintain the good relationship with my clients and customer. I had also participated in many courses such as reporting a gas leak, cyber security, maintaining the customer GDPR and dealing with their personal data.</P>
+    </div>  
+
+    
+<div class="experience-card">
+    <div class="upper">
+    <h3>Assistant Manager</h3>
+    <h5>Part Time</h5>
+    <span>9 SEPTEMBER 2018 – 1 JUNE 2022</span>
+</div>
+<div class="hr"></div>
+<h4><label>Indigo Restaurant</label></h4>
+<P>Working in restaurant industry helped me to grow my customer service skills. Along with this, it also helped me to learn heath and safety of a person as well as environment. 3 years and 9 months of work has definitely helped me to improve on my communication, leadership, time management and problem-solving skills.</P>
+</div>   
+
+<div class="experience-card">
+    <div class="upper">
+    <h3>Flex supervisor</h3>
+    <h5>Part Time</h5>
+    <span>15 JULY 2017 – 10 APRIL 2018</span>
+</div>
+<div class="hr"></div>
+<h4><label>Amazon Flex SNG/DNG</label></h4>
+<P>I have also worked in an Amazon as a Flex Supervisor for 10 months. My key role was to check if the parcel where delivered to its appropriate location.</P>
+</div>  
+
+</div>
+</div>
+</section>
+
+
+<!--Contact Page-->
+
+<section class="contact section" id="contact">
+    <div class="container flex-center">
+        <h1 class="section-title-01">Contact Me</h1>
+        <h2 class="section-title-02">Contact Me</h2>
+        <div class="content">
+            <div class="contact-left">
+            <h2>Let's discuss your project</h2>
+            <ul class="contact-list">
+
+                <li>
+                   <h3 class="item-title"><i class="fas fa-phone"></i> Phone</h3>
+                   <span>+447405427824</span>
+                </li>
+
+                <li>
+                    <h3 class="item-title"><i class="fas fa-envelope"></i> Email Address</h3>
+                    <span><a href="venketesh1918@gmail.com">venketesh1918@gmail.com</a></span>
+                 </li>
+
+                 <li>
+                    <h3 class="item-title"><i class="fas fa-map-marker-alt"></i> Address</h3>
+                    <span>9 Harston Lane, Leicester, LE4 5FN</span>
+                 </li>
+
+            </ul>
+        </div> 
+        <div class="contact-right">
+            <p>I am open to discuss any product<br><span>design work or partnerships.</span></p>
+            <form action="" class="contact-form">
+                <div class="first-row">
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="second-row">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <div class="third-row">
+                    <textarea name="message" id="" rows="7" placeholder="Message"></textarea>
+                </div>
+                <button class="btn">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Footer-->
+<footer>
+    <div class="footer-container">
+        <div class="about group">
+            <h2>Venketesh</h2>
+            <p>Front-end Developer</p>
+        </div>
+        <div class="hr"></div>
+        <div class="info group">
+            <h3>More</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact"contact>Contact</a></li>
+
+            </ul>
+        </div>
+        <div class="hr"></div>
+        <div class="follow group">
+            <h3>Follow</h3>
+        <ul>
+            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+
+        </ul>
+        </div>
+        
+       </div>
+       <div class="footer-copyright">
+       <p>© 2023 by venketesh prabhudas. All right reserved.</p>
+    </div>
+</footer>
+
+
+
+<!--Java Script (JS)-->
+<script src="js/main.js"></script>
+
+
+</body>
+</html>
