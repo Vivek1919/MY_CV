@@ -1,0 +1,12 @@
+Main Website: 
+https://www.youtube.com/watch?v=IJzuN5UGqmo&t=99s
+coding Snow
+
+Images and logo from: 
+
+Parallax Effect Source tutorial:
+https://www.youtube.com/watch?v=nHPNero_SMQ
+
+Parallax Effect Source Reference code: 
+https://www.jsdelivr.com/package/npm/rellax :---" https://cdn.jsdelivr.net/npm/rellax@1.12.1/rellax.min.js "  
+
